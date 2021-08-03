@@ -1,0 +1,167 @@
+/*
+	Young Notes Base Style Sheet
+	Author: Aro Ntatin and Peter Ricks
+	Date: July 29, 2020
+	Filename: main.css
+	Supporting Files:
+*/
+/*Display HTML5 structural elements as blocks*/
+article, aside, figure, figcaption, footer, hgroup, header, section, nav{
+	display: block;
+}
+
+/*Set the defult page element styles*/
+body{
+	margin: 0px auto;
+	width: 800px;
+	background-image: url("Images/back.png");
+	background-color: #000000;
+}
+body * {
+	font-family: Verdana, geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+	color: #AAD922;
+}
+
+/*Navigation Links*/
+nav ul{
+	list-style: none;
+	margin-top: 5px;
+}
+nav li{
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(68, 76, 169);
+	margin: 5px 2px 15px 2px;
+	list-style-type: none;
+}
+nav li a{
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	background-color: #AAD922;
+}
+nav li a:hover{
+	color: white;
+	background-color: rgb(68,76,169);
+}
+/*hi, h2, p, strong*/
+h1{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: #AAD922;
+	margin-top: 15px;
+}
+h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: rgb(68, 76, 169);
+	margin-top: 15px;
+}
+p{
+	margin: 7px;
+}
+strong{
+	font-weight: bold;
+	color: rgb(68, 76, 169);
+}
+#main{
+	border-top: 2px solid rgb(68, 76, 169);
+}
+#main ul{
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#main ul li{
+	margin-bottom: 10px;
+}
+#main ul li strong{
+	font-weight: normal;
+	color: rgb(68, 76, 169);
+}
+footer{
+	border-top: 2px solid rgb(68, 76, 169);
+	clear: left;
+	float: left;
+	width: 100%;
+}
+address{
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+}
+/*image styles*/
+img.irregularWrap{
+	clear: right;
+	float: right;
+	margin: 0px;
+}
+
+
+/*List styles*/
+li {
+	font-size: 15px;
+	list-style-type: square;
+}
+/*table style*/
+table {
+	border-collapse: collapse;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #707070;
+}
+
+table h3 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+table, th, td {
+  background-color: #3D3D3D;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #707070;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Application Style */
+fieldset {
+	border-color: #3D3D3D;
+	padding: 5px;
+}
+
+fieldset input {
+	background-color: #3D3D3D;
+	color: #AAD922;
+}
+
+fieldset textarea {
+	background-color: #3D3D3D;
+}
+
+/* Discord Inlay Style */
+iframe {
+	padding: 20px;
+	float: right;
+	border: none;
+}
+
+/* JS Video Style */
+div button {
+	background-color: #AAD922;
+	color: #000000;
+}
